@@ -1,6 +1,14 @@
+# Setup
+
+      .venv\Scripts\Activate.ps1
+      uv add langchain langchain-openai langchain-core langgraph tavily-python python-dotenv pydantic black isort
+      $env:OPENAI_API_KEY="your_openai_key_here"
+      $env:TAVILY_API_KEY="your_tavily_key_here"
+
 # LangChain Search Agents Tutorial
 
 This branch (`project/search-agent`) demonstrates how to build search agents using LangChain's `create_agent` interface. The tutorial progresses through three key concepts, showing how to evolve from a basic custom tool implementation to using structured outputs with built-in LangChain integrations.
+
 
 ## Learning Objectives
 
